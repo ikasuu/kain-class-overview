@@ -11,24 +11,20 @@
             {"secondary": ["bladebinder"]}
         ],
         "classType": [
-            "",
-            "",
-            ""
+            "KMS - January 7th Release",
+            "Expected Non-KMS Release Date:",
+            "Mid-May - Late-June"
 
         ],
         "prosCons": {
             "pros": [
-                "Strong mobbing and bossing pontential",
-                "Has strong map control with <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Skill Hunting Decree'/> Aether Swords that fly around the map",
-                "Can convert MATK into ATK",
-                "Has a reactive playstyle with useful skills that can be used to dash back from danger or negate damage with precise timing",
-                "Has a bind <img src='https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600' alt='Skill Blade Torrent'/>",
-                "Has 2 iFrame <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Skill Aether Guard'/> and <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'/>"
+                "This is a demo",
+                "Stay tuned for a full Beta release of this site",
+                "Most features have been disabled and only serve to showcase the site and the new class",
+                "Hope you enjoy!!"
             ],
             "cons": [
-                "Has micro-management with keeping track of cooldowns and active Aether Swords",
-                "Can be a bit spammy by constantly pressing buttons to keep damage up",
-                "Low base %Ignore DEF"
+                "No cons, new class OP heh"
             ]
         },
         "baseStats": [
@@ -650,5 +646,5 @@
             }
         ]
     },
-    "meta": "Adele is STR warrior class part of the Flora class group. Adele has a secondary resource (unlocked in 2nd Job) that is used to create 'Aether Swords' that can be commanded"
+    "meta": "Kain is an upcoming class coming to Korean MapleStory during the NEO Winter Update"
 }
