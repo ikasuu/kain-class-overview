@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chicken-iguana-demo/precache-manifest.237e699829637b40a689981fb35e39e7.js"
+  "/chicken-iguana-demo/precache-manifest.40fde55d32d9b633671fdd1c4d7c7684.js"
 );
 
 self.addEventListener('message', (event) => {
