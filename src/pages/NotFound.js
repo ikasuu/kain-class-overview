@@ -5,8 +5,9 @@ function NotFound() {
     return (
         <div>
             <Container>
-                <h3>Looks like there was an error in the URL you entered,
-                the page you are looking for may be moved or deleted.</h3>
+                <h3>Woah there! This site is not finished yet!!
+                    I love your enthusiasm though, see you soon! ^^
+                </h3>
             </Container>
         </div>
     )

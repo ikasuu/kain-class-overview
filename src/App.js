@@ -10,14 +10,8 @@ import Footer from './components/Footer';
 import { Helmet } from 'react-helmet';
 
 //Import all pages component here
-const Home = lazy(() => import('./pages/Home'));
-const About = lazy(() => import('./pages/About'));
-const Content = lazy(() => import('./pages/Content'));
-const Classes = lazy(() => import('./pages/Classes'));
 const ClassOverview = lazy(() => import('./pages/ClassOverview'));
-const Events = lazy(() => import('./pages/Events'));
-const Resources = lazy(() => import('./pages/Resources'));
-const DamageSkin = lazy(() => import('./pages/DamageSkin'));
+const ClassOverviewDemo = lazy(() => import('./pages/ClassOverviewDemo'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
@@ -41,14 +35,8 @@ function App() {
               <Suspense fallback={<div></div>}>
                 <div id="main-content">
                   <Switch>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/about" component={About}/>
-                    <Route path="/content" component={Content}/>
+                    <Route exact path="/" component={ClassOverviewDemo}/>
                     <Route path="/classes/:id" component={ClassOverview}/>
-                    <Route path="/classes" component={Classes}/>
-                    <Route path="/events" component={Events}/>
-                    <Route path="/resources" component={Resources}/>
-                    <Route path="/damage-skin" component={DamageSkin}/>
                     <Route component={NotFound}/>
                   </Switch>
                 </div>

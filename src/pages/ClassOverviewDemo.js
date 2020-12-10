@@ -7,7 +7,7 @@ import ClassOutro from '../components/class-overview/ClassOutro';
 import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-export class ClassOverview extends Component {
+export class ClassOverviewDemo extends Component {
 
     constructor(props) {
         super(props)
@@ -20,7 +20,7 @@ export class ClassOverview extends Component {
     }
     
     componentDidMount(){
-        fetch(`./data/${this.props.match.params.id}.json`)
+        fetch(`./data/kain.json`)
         .then(res => res.json())
         .then(fetchedData => this.setState({data: fetchedData, loading: false, fail: false}))
         .catch(err => this.setState({fail: true}));
@@ -47,9 +47,8 @@ export class ClassOverview extends Component {
             <div>
                 <HeaderImage imageUrl={`${HeaderImageUrl.library}.jpg`}/>
                 {
-                    loading ? <Container>{fail ? <h3>Woah there! This site is not finished yet!!
-                        I love your enthusiasm though, see you soon! ^^
-                    </h3> : ""}</Container> :
+                    loading ? <Container>{fail ? <h3>Looks like there was an error in the URL you entered,
+                        the page you are looking for may be moved or deleted.</h3> : ""}</Container> :
                     <div>
                       <Helmet>
                         <title>{`${data.class} | Grandis Library`}</title>
@@ -75,4 +74,4 @@ export class ClassOverview extends Component {
     }
 }
 
-export default ClassOverview
+export default ClassOverviewDemo
