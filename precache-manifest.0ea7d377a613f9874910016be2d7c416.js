@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "105b25f92a748b4af31a5687075604a8",
+    "revision": "f13bf4dac1b394b8f54cf34b67f321d6",
     "url": "/kain-class-overview/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kain-class-overview/static/css/0.89c0e2cd.chunk.css"
   },
   {
-    "revision": "9c7e9c0923fa5fa92073",
+    "revision": "31af8dfaf4084c4ae429",
     "url": "/kain-class-overview/static/css/1.21f643d7.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kain-class-overview/static/js/0.0f32ad39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c7e9c0923fa5fa92073",
-    "url": "/kain-class-overview/static/js/1.5488accd.chunk.js"
+    "revision": "31af8dfaf4084c4ae429",
+    "url": "/kain-class-overview/static/js/1.3f1628c4.chunk.js"
   },
   {
     "revision": "65f5beb60cd3f03c7a07",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kain-class-overview/static/js/main.84b32700.chunk.js"
   },
   {
-    "revision": "25e88712228acc04de0f",
-    "url": "/kain-class-overview/static/js/runtime-main.37f1c2f5.js"
+    "revision": "39202aec6182271a9090",
+    "url": "/kain-class-overview/static/js/runtime-main.d4bad5e7.js"
   },
   {
     "revision": "d9fc4c2294ac7fe61d81a9bb7c3183da",
