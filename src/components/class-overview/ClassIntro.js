@@ -3,6 +3,7 @@ import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import { Col, Container, Image, Table, Row, Card} from 'react-bootstrap';
 import { LinkSkill, NotableSkill } from './SingleSkill';
+import { LinkSkillDemo } from './SingleSkillDemo';
 import InfoButton from '../InfoButton';
 import '../../css/class-overview.css';
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
@@ -45,6 +46,28 @@ export function ClassIntro({data}) {
             <ClassDetail content={data.content}/>
         </div>
     )
+}
+
+export function ClassIntroDemo({data}) {
+  return (
+      <div>
+          <Container>
+              <h1 className="class-title">{data.class}</h1>
+              <Row>
+                  <Col md="auto" className="property-container">
+                      <ClassProperties content={data.content}/>
+                      <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                  </Col>
+                  <Col md="auto" className="pros-cons-container">
+                      <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/>
+                      <LinkSkillDemo linkSkill={data.content.linkSkill}/>
+                  </Col>
+              </Row>
+          </Container>
+          <hr/>
+          <ClassDetail content={data.content}/>
+      </div>
+  )
 }
 
 /*

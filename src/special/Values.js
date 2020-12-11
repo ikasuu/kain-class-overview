@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 218; 
-export const versionName = "Awake Update"
+export const version = "218"; 
+export const versionName = "NEO Update"
 
 export const loadingImage = "https://maplestory.io/api/GMS/216/mob/2600302/render/stand";
 
@@ -64,7 +64,8 @@ export const weapons = {
     lucentGauntlet: [`https://maplestory.io/api/GMS/${version}/item/1282028/icon`, "Lucent Gauntlet"],
     ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
-    bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"]
+    bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
+    breathShooter: ["https://i.imgur.com/NgIOGsT.png", "Breath Shooter"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -114,7 +115,8 @@ export const secondaryWeapons = {
     abyssalPath: [`https://maplestory.io/api/GMS/${version}/item/1353603/icon`, "Abyssal Path"],
     relic: [`https://maplestory.io/api/GMS/${version}/item/1353703/icon`, "Relic"],
     fanTassel: [`https://maplestory.io/api/GMS/${version}/item/1353803/icon`, "Fan Tassel"],
-    bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"]
+    bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
+    bracelet: ["https://i.imgur.com/yKfIH8l.png", "Bracelet"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name

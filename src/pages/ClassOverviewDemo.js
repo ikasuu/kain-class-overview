@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import ClassIntro, { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
+import { ClassIntroDemo, ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
 import ClassOutro from '../components/class-overview/ClassOutro';
 import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
@@ -55,7 +55,7 @@ export class ClassOverviewDemo extends Component {
                         <meta name={data.meta} content="description"/>
                       </Helmet>
                       <Container>
-                        <ClassIntro data={data}/>
+                        <ClassIntroDemo data={data}/>
                         {data.content.howToCreate && <ClassCreation className={data.class} howToCreate={data.content.howToCreate}/>}
                         {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
                         <div id="skill"/>
