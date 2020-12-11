@@ -5,10 +5,10 @@
         "jobGroup": "Archer",
         "mainStat": "DEX",
         "secondaryStat": "STR",
-        "legion": "Grants flat STR",
+        "legion": "Grants flat DEX",
         "equipment": [
-            {"weapon": ["bladecaster"]},
-            {"secondary": ["bladebinder"]}
+            {"weapon": ["breathShooter"]},
+            {"secondary": ["bracelet"]}
         ],
         "classType": [
             "KMS - January 7th Release",
@@ -18,51 +18,61 @@
         ],
         "prosCons": {
             "pros": [
-                "This is a demo",
+                "This is a demo version of the new Grandis Library",
                 "Stay tuned for a full Beta release of this site",
                 "Most features have been disabled and only serve to showcase the site and the new class",
                 "Hope you enjoy!!"
             ],
             "cons": [
-                "No cons, new class OP heh"
+                "Additionally, if you want a better experience of API skill loading",
+                "I have also included 3 class demos at the bottom of the page",
+                "You'll notice a 'Check out some more Nova classes below:' text",
+                "The container is actually a swipable element!",
+                "It supports both mobile and desktop use"
             ]
         },
         "baseStats": [
-            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            "Excludes Hyper Skill Passives, <img src='https://i.imgur.com/8ZnGQnN.png' alt='Skill Prior Preparation'/> Link Skill, and buffs with cooldowns",
             [
-                "<strong>Max HP</strong>: +15%",
-                "<strong>Crit Rate</strong>: +40%",
-                "<strong>Crit Damage</strong>: +10%",
-                "<strong>Attack Power</strong>: +10%",
-                "<strong>Final Damage</strong>: +55% + (up to 15% from <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush buff)",
-                "<strong>Damage</strong>: +(up to 8% from <img src='https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600' alt='Noblesse'> Link Skill)",
-                "<strong>Boss Damage</strong>: +10% + (up to 4% from <img src='https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600' alt='Noblesse'> Link Skill)",
-                "<strong>Knockback Resistance</strong>: +100%",
-                "<strong>Attack Speed</strong>: 2",
+                "<strong>Max HP</strong>: +35%",
+                "<strong>Max MP</strong>: +20%",
+                "<strong>DEF</strong>: +30%",
+                "<strong>Avoidability</strong>: +25%",
+                "<img src='https://i.imgur.com/zyd2zsv.png' alt='Skill Dragon Scale'/> <strong>Dodge Chance</strong>: +30%",
+                "<strong>Crit Rate</strong>: +55%",
+                "<strong>Crit Damage</strong>: +40%",
+                "<strong>Final Damage</strong>: +45",
+                "<strong>Damage</strong>: +10",
+                "<strong>Boss Damage</strong>: +10",
+                "<strong>Knockback Resistance</strong>: +50%",
+                "<strong>Attack Speed</strong>: 2 (Breath Shooter AS is 4 [Fast])",
                 "<strong>Damage Reduction (Regular Monsters)</strong>: +30%",
-                "<strong>Ignore DEF</strong>: +20% + (up to 15% from <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush buff)",
+                "<strong>Ignore DEF</strong>: +30",
                 "<strong>Abnormal Status Resistance</strong>: 30"
             ]
         ],
         "buffInfo": {
-            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Aether_Forge.png/revision/latest?cb=20200618170855' alt='Skill Aether Forge'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aetherial_Arms.png/revision/latest?cb=20200618170905' alt='Skill Aetherial Arms'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Weave_Infusion.png/revision/latest?cb=20200618171016' alt='Skill Weave Infusion'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Hero_of_the_Flora_%28Adele%29.png/revision/latest?cb=20200618170015' alt='Skill Hero of the Flora (Adele)'>",
-            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Reign_of_Destruction.png/revision/latest?cb=20200618170946' alt='Skill True Nobility'>(30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Infinity_Blade.png/revision/latest?cb=20200618170931' alt='Skill Infinity Blade'>(180s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/storm.png?w=600' alt='Skill Storm'>(90s cd)",
-            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Divine_Wrath_%28Adele%29.png/revision/latest?cb=20200618170918' alt='Skill Divine Wrath (Adele)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Legacy_Restoration.png/revision/latest?cb=20200618170933' alt='Skill Legacy Restoration'>(180s cd)",
-            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936' alt='Skill Conversion Overdrive'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin'>(240s cd)",
-            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Blade_Torrent.png/revision/latest?cb=20200618170911' alt='Skill Blade Torrent'>(180s cd)",
-            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Aether_Guard.png/revision/latest?cb=20200618170859' alt='Skill Aether Guard'>(60s cd), <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'>(180s cd)"
+            "active": "<img src='https://i.imgur.com/jmZsxVt.png' alt=''>, <img src='https://i.imgur.com/KRSZsuZ.png' alt=''>(Toggle), <img src='https://i.imgur.com/awuIbUo.png' alt=''>(Toggle), <img src='https://i.imgur.com/3GsqzEl.png' alt=''>",
+            "summons": "<img src='https://i.imgur.com/KRSZsuZ.png'>(Toggle), <img src='https://i.imgur.com/awuIbUo.png' alt=''>(Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740' alt='Skill Guided Arrow'/>(60s cd), <img src='https://i.imgur.com/aMnZJQl.png' alt='Skill Grip of Agony'/>(180s cd)",
+            "buffCd": "<img src='https://i.imgur.com/O7pWoKd.png' alt=''>(180s cd), <img src='https://i.imgur.com/2oNIRd4.png' alt=''>(180s cd)",
+            "buffFifth": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt=''>(240s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957' alt=''>(120s cd)",
+            "iFrame": "<img src='https://i.imgur.com/zyd2zsv.png' alt=''>(35s cd), <img src='https://i.imgur.com/2oNIRd4.png' alt=''>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'>(1200s cd blocks 1 death)"
         },
         "linkSkill": {
-            "id": 80002857,
-            "icons": ["https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600"],
+            "id": 0,
+            "offline": true,
+            "name": "Prior Preparation",
+            "shortDesc": "Defeating 8 enemies, or attacking a boss monster 17 times will add a stack of 'Pre-Prep'. After gaining 5 'Pre-Prep' stacks, gain a 17% Damage buff for 20 sec\\nCooldown: 40 sec",
+            "maxLevel": 2,
+            "icons": ["https://i.imgur.com/8ZnGQnN.png"],
             "type": "Passive"
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600' alt='Vault'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/rudiment.png?w=600' alt='Rudiment'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600' alt='Plain'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'>"],
-                ["2nd Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/physical-training.png?w=600' alt='Physical Training'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/attribute.png?w=600' alt='Attribute'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600' alt='Mastery'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/booster.png?w=600' alt='Booster'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/wonder.png?w=600' alt='Wonder'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'>"],
-                ["3rd Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/feather.png?w=600' alt='Feather'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/tolerance.png?w=600' alt='Tolerance'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/nobility.png?w=600' alt='Nobility'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600' alt='Ascent'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600' alt='Gathering'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'>"],
-                ["4th Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/demolition.png?w=600' alt='Demolition' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/attain.png?w=600' alt='Attain' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600' alt='Perfection' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600' alt='Expert' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide' /> -> <img src='https://orangemushroom.files.wordpress.com/2020/01/lef-warrior.png?w=600' alt='Lef Warrior' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Dike' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600' alt='Tread' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600' alt='Grave' /> -> <img src='https://orangemushroom.files.wordpress.com/2020/01/lef-heros-will.png?w=600' alt='Lef Hero' />"]
+                ["1st Job", "<img src='https://i.imgur.com/zaRKiq2.png' alt='Skill Shadow Swift'> -> <img src='https://i.imgur.com/KJ3P6Ea.png' alt='Skill Covert'> -> <img src='https://i.imgur.com/M7Iu6yy.png' alt='Skill Hitman'> -> <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'> -> <img src='https://i.imgur.com/oHK1HNt.png' alt='Skill Grappling Wire'> -> <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'>"],
+                ["2nd Job", "<img src='https://i.imgur.com/MJFEdyP.png' alt='Skill Physical Training'> -> <img src='https://i.imgur.com/jmZsxVt.png' alt='Skill Breath Shooter Booster'> -> <img src='https://i.imgur.com/KAmi4B4.png' alt='Breath Shooter Mastery'> -> <img src='https://i.imgur.com/evNVpqX.png' alt='Skill Strike Arrow II'> -> <img src='https://i.imgur.com/KiO9HR7.png' alt='Skill Scattering Shot'> -> <img src='https://i.imgur.com/KRSZsuZ.png' alt='Skill Dragon Fang'>"],
+                ["3rd Job", "<img src='https://i.imgur.com/f2csbeK.png' alt='Skill Grinding'> -> <img src='https://i.imgur.com/Z7pGNmy.png' alt='Skill Natural Born Instinct'> -> <img src='https://i.imgur.com/awuIbUo.png' alt='Remain Incense'> -> <img src='https://i.imgur.com/3GCONZd.png' alt='Skill Phantom Blade'> -> <img src='https://i.imgur.com/GHh7BYU.png' alt='Skill Tearing Knife'> -> <img src='https://i.imgur.com/bbyHHUV.png' alt='Skill Shaft Break'> -> <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'>"],
+                ["4th Job", "<img src='https://i.imgur.com/UpmK7LL.png' alt='Advanced Death Blessing'> -> <img src='https://i.imgur.com/d2eP9UC.png' alt='Skill Dogma'> -> <img src='https://i.imgur.com/IlObBPv.png' alt='Skill Adapt to Death'> -> <img src='https://i.imgur.com/p7hEY7m.png' alt='Skill Grinding II'> -> <img src='https://i.imgur.com/9d7H8Jt.png' alt='Skill Breath Shooter Expert'> -> <img src='https://i.imgur.com/Nze757q.png' alt='Skill Chain Sickle'> -> <img src='https://i.imgur.com/3GsqzEl.png' alt='Skill Nova Warrior'> -> <img src='https://i.imgur.com/zyd2zsv.png' alt='Skill Dragon Scale'> -> <img src='https://i.imgur.com/2EkChdQ.png' alt='Skill Falling Dust'> -> <img src='https://i.imgur.com/EWNpmTY.png' alt='Skill Poison Needle'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230' alt='Skill Nova Temperance'>"]
             ],
             "details": [
                 "Put one SP into each skill first",
@@ -71,538 +81,757 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/trigger-reinforce.png?w=600' alt='Trigger - Reinforce'> <img src='https://orangemushroom.files.wordpress.com/2019/12/trigger-boss-killer.png?w=600' alt='Trigger - Boss Killer'> Trigger - Reinforce and Trigger - Boss Rush</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/resonance-extra-healing.png?w=600' alt='Resonance - Extra Healing'> Resonance Rush - Efficiency</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/territory-persist.png?w=600' alt='Territory - Persist'> Reign of Destruction - Persist</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/blossom-cooltime-reduce.png?w=600' alt='Blossom - Cooltime Reduce'> Aether Blossom - Cooldown Cutter</li></ul>" 
+            "recommended": "<ul><li><img src='https://i.imgur.com/8QxUNld.png' alt=''> <img src='https://i.imgur.com/5MTDbhR.png' alt=''> Breath Shooter - Reinforce and Boss Rush</li><li><img src='https://i.imgur.com/FR8ayoC.png' alt=''> <img src='https://i.imgur.com/o0Cxe4C.png' alt=''> Execution - Reinforce and Enhance</li><li><img src='https://i.imgur.com/jwU9C4S.png' alt=''> Dragon Scale - Extra Healing</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom'> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
-            "possible": "<img src='https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600' alt='Plain'> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> <img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'> <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> <img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> <img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom'>"
+            "recommended": "<img src='https://i.imgur.com/fKHGRNr.png' alt=''>, <img src='https://i.imgur.com/KiO9HR7.png' alt=''>, <img src='https://i.imgur.com/KRSZsuZ.png' alt=''>, <img src='https://i.imgur.com/bbyHHUV.png' alt=''>, <img src='https://i.imgur.com/3GCONZd.png' alt=''>, <img src='https://i.imgur.com/BI02RBY.png'>, <img src='https://i.imgur.com/xjPUOWg.png' alt=''>, <img src='https://i.imgur.com/Nze757q.png' alt=''>",
+            "possible": "<img src='https://i.imgur.com/fKHGRNr.png' alt=''>, <img src='https://i.imgur.com/KiO9HR7.png' alt=''>, <img src='https://i.imgur.com/KRSZsuZ.png' alt=''>, <img src='https://i.imgur.com/bbyHHUV.png' alt=''>, <img src='https://i.imgur.com/3GCONZd.png' alt=''>, <img src='https://i.imgur.com/BI02RBY.png'>, <img src='https://i.imgur.com/xjPUOWg.png' alt=''>, <img src='https://i.imgur.com/Nze757q.png' alt=''>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/58793/adele",
-            "https://maplestory.fandom.com/wiki/Adele/"
+            "http://www.inven.co.kr/board/maple/2299/5789027",
+            "http://www.inven.co.kr/board/maple/2314/5167",
+            "https://orangemushroom.net/2020/12/10/kmst-ver-1-2-112-maplestory-neo-cernium-and-kain/",
+            "https://twitter.com/kmspatcher?s=20"
         ],
         "credits": [
-            ["Skill Icons", "OrangeMushroom"],
-            ["Skill Animations", "Ikasuu"],
-            ["Common 5th Job Skills Animations", "OrangeMushroom"],
-            ["5th Job Skills Animations", "KyoWantsCute"]
+            ["Skill Icons, Animations + Translations", "Ikasuu"],
+            ["Common 5th Job Skills Animations", "OrangeMushroom"]
         ],
         "extraContent": {
-            "title": "Aether Weaving",
-            "content": "<p><img class='extra-content-image' src='https://media0.giphy.com/media/Y1Gx3pWfHGnDCHaxR8/giphy.gif' alt='Animated GIF'/></p><p>Adele has a secondary resource (unlocked in 2nd Job) called <img src='https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600' alt='Aether'> Aether Weaving that is used to activate certain skills and create 'Aether Swords' that can be commanded. Aether Weaving is generated passively and whenever you attack an enemy with a 'Trigger' skill</p><ul><li>Every 100 'Aether Weaving', an Aether Sword is readied</li><li>When a sword is readied, you can summon it using <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32'> Hunting Decree (3rd Job)</li><li>These swords are used primarily for <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32'> and cannot be used before 3rd Job</li><li>Each sword represents 100 AE which skills that consume AE can use</li><li>In 2nd Job, you can hold up to 2 Swords (200 AE) at a time and 3 Swords (300 AE) in 4th Job+</li><li>Note if you use any skill that consumes AE, your Aether Sword will disappear and be consumed as AE</li></ul><p>Below is a list of all Trigger skills:</p><ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'> Skewering (2nd Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> Eviscerate (3rd Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> Cleave (4th Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600' alt='Tread'> Plummet (4th Job)</li></ul>"
+            "title": "Possession and Execution Skills",
+            "content": "<p>In 2nd Job, you gain access to your special resource gauge, <img src='https://i.imgur.com/eZqRPEb.png' alt=''> Possession that utilizes Malice. Malice is gained periodically and from attacking enemies with Breath Shooter skills like <img src='https://i.imgur.com/fKHGRNr.png'> Strike Arrow. Every 100 Malice, you gain a Malice Stone that is used to enter Possession state. In Possession state, enhances one attack granting it special effects. Possession skills share the same Skill Key and Skill Points (SP) as their regular version. Possession skills also have their own independent cooldowns from the regular skill</p><ul><li>8 Malice is generated periodically in 2nd Job, it is increased to 10 in 4th Job</li><li>12 Malice is generated when landing a Breath Shooter skill, it is increased to 17 in 4th Job</li></ul><p>Below is all skills that have a Possession form:</p><ul><li><img src='https://i.imgur.com/fKHGRNr.png' alt=''> / <img src='https://i.imgur.com/MjUO8Wx.png' alt=''> Strike Arrow (1st Job)</li><li><img src='https://i.imgur.com/KiO9HR7.png' alt=''> / <img src='https://i.imgur.com/Pxh6aI4.png' alt=''> Scattering Shot (2nd Job)</li><li><img src='https://i.imgur.com/bbyHHUV.png' alt=''> / <img src='https://i.imgur.com/MMHoMPs.png' alt=''> Shaft Break (3rd Job)</li><li><img src='https://i.imgur.com/xjPUOWg.png' alt=''> / <img src='https://i.imgur.com/2EkChdQ.png' alt=''> Falling Dust (4th Job)</li><li><img src='https://i.imgur.com/jMT1sqo.png' alt=''> / <img src='https://i.imgur.com/492JOFD.png' alt=''> Sneaky Sniping (Hyper Skill)</li><li><img src='https://i.imgur.com/6hTH4yG.png' alt=''> Dragon Burst (5th Job) - Always usable</li></ul><p>Additionally, in 3rd Job, you gain a passive called <img src='https://i.imgur.com/8b7AYbi.png' alt=''> Death Blessing. Possession skills add stacks of Death Blessing which new Execution skills will detonate for a devastating additional attack. As well, when you defeat an enemy with a most Execution skills, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt=''> Shadow Step (1st Job), a dash skill that provides great mobility</p><p>Below is all your Execution skills:</p><ul><li><img src='https://i.imgur.com/3GCONZd.png' alt=''> Phantom Blade (3rd Job)</li><li><img src='https://i.imgur.com/GHh7BYU.png' alt=''> Tearing Knife (3rd Job)</li><li><img src='https://i.imgur.com/Nze757q.png' alt=''> Chain Sickle (4th Job)</li><li><img src='https://i.imgur.com/EWNpmTY.png' alt=''> Poison Needle (4th Job)</li><li><img src='https://i.imgur.com/492JOFD.png' alt=''> Sneaky Sniping (Hyper Skill)</li><li><img src='https://i.imgur.com/CL2A2DH.png' alt=''> Fatal Blitz Loop (5th Job)</li></ul><p>Lastly, lots of your skills have a charge system where you have a set amount of charges which need to recharge. Below is a list of all charge system skills:</p><ul><li><img src='https://i.imgur.com/KiO9HR7.png' alt=''> Scattering Shot (2nd Job) - 3 Charges, 6 sec recharge</li><li><img src='https://i.imgur.com/bbyHHUV.png' alt=''> Shaft Break (3rd Job) - 3 Charges, 8 sec recharge</li><li><img src='https://i.imgur.com/xjPUOWg.png' alt=''> Falling Dust (4th Job) - 2 Charges, 10 sec recharge</li></ul>"
         }
     },
     "skill": {
         "primary":[
             [
-                "Beginner", [{
-                    "id": 150021000,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/revisitation.png?w=600"],
-                    "animations": ["https://media2.giphy.com/media/sRkG6Jc68nIwwy4IRQ/giphy.gif"],
-                    "type": "Active"
-                },
-                {
-                    "id": 150020079,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/magic-circuit.png?w=600"],
-                    "type": "Passive"
-                },
-                {
-                    "id": 150020006,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/face.png?w=600"],
-                    "type": "Passive",
-                    "desc": "",
-                    "details": [
-                        "This skill is gained and leveled up by completing the Adele storyline<ul><li>The storyline spans all the way up to Lv. 200</li></ul>"
-                    ]
-                },
-                {
-                    "id": 60011005,
-                    "offline": true,
-                    "name": "Exclusive Spell",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
-                    "maxLevel": 1,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/exclusive-spell.png?w=600"],
-                    "animations": ["https://media0.giphy.com/media/wIeX9ADXDixIsaZYuA/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "",
-                    "reqLev": "Req. 200",
-                    "details": [
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
-                    ]
-                }]
-            ],
-            [
                 "1st Job", [
                     {
-                        "id": 151001000,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600"],
-                        "animations": ["https://media3.giphy.com/media/KCYmBs6F31WlMPOfla/giphy.gif"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Strike Arrow",
+                        "shortDesc": "MP Cost: 14, Damage: 70%, Number of Attacks: 5, Max Enemies Hit: 4\\n[Arrow Fragment]: Attack up to 2 enemies not hit by Strike Arrow with 55% damage 5 time(s)",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/fKHGRNr.png", "https://i.imgur.com/MjUO8Wx.png"],
+                        "animations": ["https://media1.giphy.com/media/mPL8ygsAt8P2GHwyus/giphy.gif", "https://media3.giphy.com/media/DfYHclkMTEwuWviSbH/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Swings a sword forward"
-                    },
-                    {
-                        "id": 151001001,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600"],
-                        "animations": ["https://media0.giphy.com/media/j5QcQlY3GIABEePCaN/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Creates homing shards that seek out nearby enemies",
-                        "details": [
-                            "Unaffected by Damage Reflect"
+                        "desc": "Fires several arrows forward",
+                        "details":[
+                            "When an attack hits, fragments are created that seek out enemies that were not hit by the arrows",
+                            "Occasionally when used, a <img src='https://i.imgur.com/MjUO8Wx.png' alt='Skill Strike Arrow Enhanced'/> Possession enhanced form may appear"
                         ]
                     },
                     {
-                        "id": 151001002,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600"],
-                        "animations": ["https://media2.giphy.com/media/LrFzfgMEZDKRqSKJ6k/giphy.gif"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Shadow Step",
+                        "shortDesc": "MP Cost: 30\\nCooldown: 10 sec\\n[Passive Effect]: Movement Speed: +10",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/cEIdi1b.png"],
+                        "animations": ["https://media4.giphy.com/media/yMgn17ltWiuaEpgl41/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Quickly dashes in a given direction",
+                        "details": [
+                            "Can be used to dash in all four directions using the Arrow Keys",
+                            "Can be used while casting certain skills",
+                            "When dashing left or right, you enter a <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'/> Dark Sight state<ul><li>Using the skill again will cancel the effect</li></ul>",
+                            "<strong>[Passive]</strong>: Increases Movement Speed"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Grappling Wire",
+                        "shortDesc": "MP Cost: 21, Fires a special wire onto terrain which can be used to move to towards the wire\\n[Passive Effect]: Jump: +10",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/oHK1HNt.png"],
+                        "animations": ["https://media0.giphy.com/media/jDDFAmA3Qdpd3UpIFk/giphy.gif"],
+                        "type": "Key-down Active",
+                        "desc": "On tap, fires a grapple that can attach to terrain",
+                        "details": [
+                            "After a wire is attached, re-using the skill by holding down the Skill Key will move you towards the grapple",
+                            "Pressing the Skill Key and an Arrow Key toegether will direct the wire<ul><li>This results in either a straight shot or 45 degrees upwards/downwards depending on direction</li></ul>",
+                            "Can be used in the air"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Shadow Swift",
+                        "shortDesc": "MP Cost 10, Allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["https://i.imgur.com/zaRKiq2.png"],
+                        "animations": ["https://media4.giphy.com/media/LrR0pkXqbsf037Hw6L/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
                         ]
                     },
                     {
-                        "id": 151001004,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/levitation.png?w=600"],
-                        "animations": ["https://media0.giphy.com/media/MxGIjq9jUhbOii86oY/giphy.gif"],
-                        "type": "Active",
-                        "desc": "While in the air, pressing the Skill Key or pressing the Up Key twice will allow you to float for a short period of time",
-                        "details": [
-                            "Using the skill again or using <img src='https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600' alt='Vault'> will stop the skill",
-                            "You can lock the skill by right-clicking the skill to prevent it from activating with the Arrow Keys",
-                            "To unlock this skill, you need to complete Adele's storyline"
-                        ]
+                        "id": 0,
+                        "offline": true,
+                        "name": "Hitman",
+                        "shortDesc": "Attack Power: +40, Critical Rate: +35%, Knockback Resistance: +50%, Max HP: +15%, DEF: +200, Damage Taken: -15%",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/KJ3P6Ea.png"],
+                        "type": "Passive"
                     },
                     {
-                        "id": 151000005,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/rudiment.png?w=600"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Covert",
+                        "shortDesc": "Avoidability: +25%, Movement Speed: +20, Max Movement Speed: +20, Jump: +10",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/M7Iu6yy.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                 "2nd Job", [
                     {
-                        "id": 151100017,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
-                        "type": "Passive",
-                        "desc": "A special resource that generates passively and whenever you attack an enemy with a 'Trigger' skill"
-                    },
-                    {
-                        "id": 151100002,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600"],
-                        "animations": ["https://media1.giphy.com/media/o4AI27UyJjfawQuhRl/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Whenever an Aether Sword attack hits an enemy, there is a chance to leave behind a crystal",
+                        "id": 0,
+                        "offline": true,
+                        "name": "Possession",
+                        "shortDesc": "Generates 8 Malice at a certain time, Breath Shooter skills generate 12 Malice when hit, 100 Malice are required to obtain 1 Malice Stone, up to 2 Malice Stones can be held at a time.\\nConsume a Malice Stone to enter Possession for 15 sec\\nCooldown: 0.3 sec",
+                        "maxLevel": 1,
+                        "icons": ["https://i.imgur.com/eZqRPEb.png"],
+                        "animations": ["https://media0.giphy.com/media/mKhqCQudEfxaHqJNNO/giphy.gif"],
+                        "type": "Active",
+                        "desc": "A special resource called Malice that generates passively and whenever you attack an enemy",
                         "details": [
-                            "Using <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance will dash towards the crystals consuming it",
-                            "Up to 7 crystals can be active at a time and last 30 secs each<ul><li>Creating a new crystal will cause the oldest crystal to expire if there are already 7 crystals active</li></ul>"
+                            "Each time 100 Malice is generated, you gain a Malice Stone (max. 2 in 2nd Job)<ul><li>Consuming a Malice Stone will cause you to enter Possession state which causes your next attack to be in enhanced Possession form</li></ul>"
                         ]
                     },
                     {
-                        "id": 151101000,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600"],
-                        "animations": ["https://media2.giphy.com/media/m9v3zQx70hN8q97VC0/giphy.gif"],
-                        "type": "Trigger Attack",
-                        "desc": "Launches multiple swords forward"
-                    },
-                    {
-                        "id": 151101006,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600"],
-                        "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"],
-                        "type": "Toggle Attack",
-                        "desc": "When toggled, when a Trigger skills hit an enemy, Aether Swords will brandish in front of you that has a chance to leave behind a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Aether_Crystal.png/revision/latest?cb=20200618170854' alt='Skill Aether Crystal'>",
+                        "id": 0,
+                        "offline": true,
+                        "name": "Dragon Fang",
+                        "shortDesc": "For each Dragon Fang, Duration: 40 sec, Damage: 85%, Number of Attacks: 4, returns after attacking up to 7 times after attack mode is activated\\nDamage against normal monsters: +20%\\n Dragon Fang(s) enter attack mode when Kain attacks an enemy.\\nCan command up to 3 Dragon Fang(s)\\nAttack mode activation cooldown: 3 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/KRSZsuZ.png"],
+                        "type": "Toggle Summon",
+                        "desc": "When toggled, periodically as you attack, you summon Dragon Fangs that attack nearby enemies whenever you attack",
                         "details": [
-                            "The size of the attack will change based on the amount of Aether Energy you have currently",
-                            "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'> Hunting Decree (3rd Job) can only be activated when this skill is toggled on",
-                            "Cooldown of the attack will be reduced each Job Advancement",
+                            "Up to 3 can be active at a time",
+                            "Deals increased %Damage to normal monsters",
                             "Unaffected by Damage Reflect"
+                            
                         ]
                     },
                     {
-                        "id": 151101001,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600"],
-                        "animations": ["https://media0.giphy.com/media/lqGR4b8YYKzIVIbsYp/giphy.gif"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Strike Arrow II",
+                        "shortDesc": "MP Cost: 14, Damage: 160%, Number of Attacks: 5, Max Enemies Hit: 4\\n[Passive Effect]: Increases Strike Arrow's damage by 89% p, Arrow Fragment's damage by 60% p",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/evNVpqX.png"],
+                        "animations": ["https://media0.giphy.com/media/s7N4k9B4sA70OKOExQ/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After using <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/>, fire another barrage arrows forward",
+                        "details": [
+                            "Shares a Key Slot with <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/> and can only be used after it",
+                            "Also creates Arrow Fragments",
+                            "Additionally, permanently increases %p Damage of <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/> (including Arrow Fragments)"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Possession] Strike Arrow",
+                        "shortDesc": "MP Cost: 14, Damage: 200%, Number of Attacks: 8, Max Enemies Hit: 8\\nCooldown: 1 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/MjUO8Wx.png", "https://i.imgur.com/fKHGRNr.png"],
+                        "animations": ["https://media0.giphy.com/media/zVrl6t1XJOQyXUqxiF/giphy.gif"],
+                        "type": "Possession Attack",
+                        "desc": "",
+                        "details": [
+                            "Possession version of attacks are only usable in <img src='https://i.imgur.com/eZqRPEb.png' alt='Skill Possession'/> Possession state",
+                            "Shares the same Skill Points (SP) as <img src='https://i.imgur.com/evNVpqX.png' alt='Skill Strike Arrow II'/> and the same Key Slot as <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/>"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Scattering Shot",
+                        "shortDesc": "MP Cost: 35, Consumes 1 Scattering Shot Charge\\n Damage: 120%, Number of Attacks: 4, Number of Arrows Fired: 5, Max Enemies Hit: 2\\nIf an enemy is hit by multiple arrows, each arrow after the 1st arrow deals 50% reduced Final Damage\\nDamage against normal monsters: +30%\\nYou gain 1 Scattering Shot Charge every 6 sec, and can store up to a maximum of 3",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/KiO9HR7.png"],
+                        "animations": ["https://media3.giphy.com/media/px7nbyaMUHD6vYWs3N/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates an Aether Sword while shooting it forward that leaves behind a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Aether_Crystal.png/revision/latest?cb=20200618170854' alt='Skill Aether Crystal'>",
+                        "desc": "Fires a spray of arrows forward",
                         "details": [
-                            "You can use the Arrow Keys to decide the direction the Aether Sword is launched",
-                            "Can be linked with <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush to quickly dash but no <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal will be created"
+                            "Uses a special resource called Scattering Shot Charge<ul><li>You gain one Scattering Shot Charge every 6 secs (up to 3 at a time)</li></ul>",
+                            "If an enemy is hit by more than one arrow, each additional arrow deals reduced %Final Damage",
+                            "Deals increased %Damage to normal monsters",
+                            "<strong>[Note]</strong>: Animation is only a recreation, in-game, multiple arrows are fired in a cone"
                         ]
                     },
                     {
-                        "id": 151101003,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600"],
-                        "animations": ["https://media2.giphy.com/media/kZKSgUf3uY4YmAbPc9/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Lunges a sword forward while dashing",
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Possession] Scattering Shot",
+                        "shortDesc": "MP Cost: 35, Damage: 135%, Number of Attacks: 4, Number of Arrows Fired: 6, Max Enemies Hit: 1\\nIf an enemy is hit by multiple arrows, each arrow after the 1st arrow deals 50% reduced Final Damage\\nDamage against normal monsters: +30%\\nCooldown: 7 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/Pxh6aI4.png", "https://i.imgur.com/KiO9HR7.png"],
+                        "animations": ["https://media4.giphy.com/media/FfXUIKHml62b5yy9vI/giphy.gif"],
+                        "type": "Possession Attack",
+                        "desc": "",
                         "details": [
-                            "Deals increased %Damage the fewer enemies there are",
-                            "Can only be used when there is a nearby <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> or when linked with <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'><ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal will disappear if you dash to it</li></ul>",
-                            "You can use the Arrow Keys to decide the direction you dash towards",
-                            "If the skill hits an enemy, you gain a stacking buff that increases %Final Damage and %Ignore DEF (up to 3 times)"
+                            "Shares the same Skill Points (SP) and Key Slot as <img src='https://i.imgur.com/KiO9HR7.png' alt='Skill Scattering Arrow'/>",
+                            "Arrows now home and seek out enemies with the highest Max HP",
+                            "Unaffected by Damage Reflect",
+                            "<strong>[Note]</strong>: Animation is only a recreation, in-game, multiple arrows are fired in a cone"
                         ]
                     },
                     {
-                        "id": 151101013,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/wonder.png?w=600"],
-                        "animations": ["https://media4.giphy.com/media/NFOjX0MtHhU97JVvBd/giphy.gif"],
-                        "type": "Toggle Attack",
-                        "desc": "When toggled, Trigger attacks will periodically activate <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> automatically",
-                        "details": [
-                            "Additionally, permanently increases %p Damage of <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600 alt='Skill Magic Dispatch'/>"
-                        ]
-                    },
-                    {
-                        "id": 151101005,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/booster.png?w=600"],
-                        "animations": ["https://media2.giphy.com/media/DZi5vzjx0sme1X2ras/giphy.gif"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Breath Shooter Booster",
+                        "shortDesc": "MP Cost: 20, Increases attack speed of Breath Shooter for 200 sec",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/jmZsxVt.png"],
+                        "animations": ["https://media4.giphy.com/media/YwmPxOLR6aFvJgDT7W/giphy.gif"],
                         "type": "Buff",
                         "desc": "Increases Attack Speed (by 2 stages)"
                     },
                     {
-                        "id": 151100014,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Breath Shooter Mastery",
+                        "shortDesc": "Breath Shooter Mastery: +50%\\nAttack Power: +30",
+                        "maxLevel": 19,
+                        "icons": ["https://i.imgur.com/KAmi4B4.png"],
                         "type": "Passive"
                     },
                     {
-                        "id": 151100015,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute.png?w=600"],
-                        "type": "Passive"
-                    },
-                    {
-                        "id": 151100016,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/physical-training.png?w=600"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Physical Training",
+                        "shortDesc": "STR +60",
+                        "maxLevel": 5,
+                        "icons": ["https://i.imgur.com/MJFEdyP.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                 "3rd Job", [
                     {
-                        "id": 151111000,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600"],
-                        "animations": ["https://media0.giphy.com/media/jQQVcydQzj7SzHDJQ2/giphy.gif"],
-                        "type": "Trigger Attack",
-                        "desc": "Slashes your sword forward"
-                    },
-                    {
-                        "id": 151111003,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600"],
-                        "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"],
-                        "type": "Aether Sword Summon",
-                        "desc": "Summons 2 Aether Swords to seek out and attack nearby enemies",
+                        "id": 0,
+                        "offline": true,
+                        "name": "Strike Arrow III",
+                        "shortDesc": "MP Cost: 10, Damage: 240%, Number of Attacks: 5, Max Enemies Hit: 4",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/IUHEKUl.png", "https://i.imgur.com/evNVpqX.png"],
+                        "animations": ["https://media3.giphy.com/media/3v5cmbA45davO0jA1S/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After using <img src='https://i.imgur.com/evNVpqX.png' alt='Skill Strike Arrow II'/>, fire another barrage arrows forward",
                         "details": [
-                            "Up to 4 Aether Swords can be active at a time (in 3rd Job)<ul><li>The oldest Aether Swords will be replaced if 4 are already active</li></ul>",
-                            "Can only be activated when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Aether_Forge.png/revision/latest?cb=20200618170855' alt='Skill Aether Forge'> is toggled on",
-                            "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'>",
-                            "Unaffected by Damage Reflect"
+                            "Shares a Key Slot with <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/> and can only be used after <img src='https://i.imgur.com/evNVpqX.png' alt='Skill Strike Arrow II'/>",
+                            "Also creates Arrow Fragments",
+                            "Additionally, permanently increases %p Damage of <img src='https://i.imgur.com/fKHGRNr.png' alt='Skill Strike Arrow'/> (including Arrow Fragments), <img src='https://i.imgur.com/evNVpqX.png' alt='Skill Strike Arrow II'/>, and <img src='https://i.imgur.com/MjUO8Wx.png' alt='Skill Possession Strike Arrow'/>"
                         ]
                     },
                     {
-                        "id": 151111002,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600"],
-                        "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"],
-                        "type": "Aether Sword Attack",
-                        "desc": "Commands all your <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> swords to return to you while damaging and debuffing enemies in its path",
+                        "id": 0,
+                        "offline": true,
+                        "name": "Death Blessing",
+                        "shortDesc": "Using Possession skills will inflict enemies with a Death Blessing debuff, which lasts for 60 sec and can be stacked up to 10 times\\nExecution skills consume the debuff and will attack the enemy 10 time(s) for 150% damage per stack and increases the %Final Damage of Death Blessing for 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/8b7AYbi.png"],
+                        "animations": ["https://media4.giphy.com/media/UoANcy2ZPAIe8VB2A4/giphy.gif", "https://media2.giphy.com/media/9F6pDlUZemqukhBaPA/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Possession attacks apply a stacking debuff (up to 10) onto enemies that Execution attacks can consume to damage an enemy",
                         "details": [
-                            "<strong>[Debuff]</strong>: Adele's attack towards this target has increased %Ignore DEF",
-                            "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'>",
-                            "Unaffected by Damage Reflect"
+                            "<strong>[Debuff]</strong>: Execution skills consume the debuff and damages the enemy<ul><li>Additionally grants a buff that increases the %Final Damage of Death Blessing briefly</li></ul>",
+                            "When the debuff is consumed, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset",
+                            "Unaffected by Attack Ignore and Damage Reflect"
                         ]
                     },
                     {
-                        "id": 151111001,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600"],
-                        "animations": ["https://media2.giphy.com/media/eN51yOocvvxWIp72Dm/giphy.gif"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Shaft Break",
+                        "shortDesc": "MP Cost: 67, Consumes 1 Shaft Break Charge\\n Damage: 180%, Number of Attacks: 3, Max Enemies Hit: 3\\nWhen created, draws up to 7 enemies and then explodes. Explosion deals 140% damage to 10 enemies 10 times.\\nYou gain 1 Shaft Break Charge every 8 sec, and can store up to a maximum of 3",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/bbyHHUV.png"],
+                        "animations": ["https://media2.giphy.com/media/sLRq5bJqvQsamYzc3Y/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates a zone of piercing swords",
+                        "desc": "Fires an arrow forward that pulls in enemies before exploding",
                         "details": [
-                            "Unaffected by Damage Reflect",
-                            "At the end of the duration, the attack explodes damaging nearby enemies"
+                            "Uses a special resource called Shaft Break Charge<ul><li>You gain one Shaft Break Charge every 8 secs (up to 3 at a time)</li></ul>",
+                            "Arrow starts pulling in enemies once it hits an enemy or reaches max distance",
+                            "Explosion is unaffected by Damage Reflect"
                         ]
                     },
                     {
-                        "id": 151111005,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility.png?w=600"],
-                        "animations": ["https://media1.giphy.com/media/dXudUeSk8EMEcX8umt/giphy.gif"],
-                        "type": "Buff Zone",
-                        "desc": "Creates a barrier around you where party members redirect some of the damage to you by creating a shield for you",
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Possession] Shaft Break",
+                        "shortDesc": "MP Cost: 67, Damage: 180%, Number of Attacks: 3, Max Enemies Hit: 3\\nWhen created, draws up to 7 enemies and then explodes. Explosion deals 240% damage to 10 enemies 10 times.\\nAfter the explosion, cyclone is created\\n[Cyclone]: Damage: 40%, Number of Attacks: 1, Max Enemies Hit: 10, Duration: 3 sec\\nCooldown: 12 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/MMHoMPs.png", "https://i.imgur.com/bbyHHUV.png"],
+                        "animations": ["https://media1.giphy.com/media/YhJdoOqBaQgbBzxeHf/giphy.gif"],
+                        "type": "Possession Attack",
+                        "desc": "",
                         "details": [
-                            "Pressing the Skill Key again will cancel the shield"
+                            "Shares the same Skill Points (SP) and Key Slot as <img src='https://i.imgur.com/bbyHHUV.png' alt='Skill Shaft Break'/>",
+                            "Now additionally leaves a lingering cyclone briefly after exploding<ul><li>Unaffected by Damage Reflect</li></ul>"
                         ]
                     },
                     {
-                        "id": 151111004,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/feather.png?w=600"],
-                        "animations": ["https://media1.giphy.com/media/TFNLyNO41OJDr3BYoB/giphy.gif"],
-                        "type": "Active",
-                        "desc": "Dashes backward",
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Execution] Phantom Blade",
+                        "shortDesc": "MP Cost: 30, Damage: 190%, Number of Attacks: 6, Max Enemies Hit: 4",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/3GCONZd.png"],
+                        "animations": ["https://media1.giphy.com/media/tKeTofiusPMkhDXeG9/giphy.gif"],
+                        "type": "Execution Attack",
+                        "desc": "Slashes forward",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
-                            "Can be used while using a 'Trigger' skill"
+                            "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed"
                         ]
                     },
                     {
-                        "id": 151110006,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Execution] Tearing Knife",
+                        "shortDesc": "MP Cost: 40, Damage: 250%, Number of Attacks: 7, Max Enemies Hit: 4\\nCooldown: 4.5 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/GHh7BYU.png"],
+                        "animations": ["https://media2.giphy.com/media/MnKvt7Azx7SyHXO6Zu/giphy.gif"],
+                        "type": "Execution Attack",
+                        "desc": "Stabs forward",
+                        "details": [
+                            "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Tearing Knife, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Remain Incense",
+                        "shortDesc": "When a Possession skill, Thanatos Descent, or Falling Dust hits an enemy, create 5 crystals for 10 sec\\nUp to 10 crystals can be active\\nWhen activated, deal 4 time(s) 150% damage to an enemy per crystal\\nIf an enemy is hit by multiple crystals, each crystal after the 1st arrow deals 50% reduced Final Damage\\nDamage against normal monsters: +50%\\nCooldown: 6 sec",
+                        "maxLevel": 15,
+                        "icons": ["https://i.imgur.com/awuIbUo.png"],
+                        "animations": ["https://media2.giphy.com/media/THd33XoJdySGx5KYCB/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, when a Possession skil or <img src='https://i.imgur.com/2oNIRd4.png' alt='Skill Thanatos Descent'/> Thanatos Descent (5th Job), <img src='https://i.imgur.com/aMnZJQl.png' alt='Skill Ominous Stream'/> Grip of Agony (5th Job) hits an enemy, crystals are created that will seek out and damage nearby enemies",
+                        "details": [
+                            "Crystals activate whenever Kain attacks near a crystal"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Natural Born Instinct",
+                        "shortDesc": "Final Damage: +25%, Attack Power: +40, Critical Chance: +20%, DEF: +10%, Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/Z7pGNmy.png"],
                         "type": "Passive"
                     },
                     {
-                        "id": 151110007,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tolerance.png?w=600"],
+                        "id": 0,
+                        "offline": true,
+                        "name": "Grinding",
+                        "shortDesc": "Max MP: +20%, DEF: +20%\\nScattering Shot Damage: +75% p\\n[Possession] Scattering Shot Damage: +80% p\\nDragon Fang Damage: +50% p",
+                        "maxLevel": 9,
+                        "icons": ["https://i.imgur.com/f2csbeK.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                 "4th Job", [
-                {
-                    "id": 151120012,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/high-ether.png?w=600"],
-                    "type": "Passive"
-                },
-                {
-                    "id": 151121000,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600"],
-                    "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"],
-                    "type": "Trigger Attack",
-                    "desc": "Slashes a giant sword forward",
-                    "details": [
-                        "There are 3 different attacks that can randomly trigger"
-                    ]
-                },
-                {
-                    "id": 151121003,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600"],
-                    "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"],
-                    "type": "Aether Sword Attack",
-                    "desc": "Commands all your <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> swords to spin damaging nearby enemies",
-                    "details": [
-                        "Unaffected by Damage Reflect and cooldown resets",
-                        "Duration of Aether Swords will not go down when attack is active",
-                        "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal",
-                        "If an enemy is hit by multiple Aether Swords, each additional sword deals reduced damage"
-                    ]
-                },
-                {
-                    "id": 151121001,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600"],
-                    "animations": ["https://media1.giphy.com/media/RHCpLWle8DraSrvQBW/giphy.gif"],
-                    "type": "Attack",
-                    "desc": "Marks an enemy causing all Aether Swords to target them",
-                    "details": [
-                        "<strong>[Debuff]</strong>: Attacks towards this enemy deals increased %Damage and %Ignore Def",
-                        "If you press the Skill Key again, the mark can be moved to another target if there is a mark active",
-                        "The skill will target the enemy with the highest Max HP",
-                        "Unaffected by cooldown resets"
-                    ]
-                },
-                {
-                    "id": 151121004,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600"],
-                    "animations": ["https://media2.giphy.com/media/RsNUW30Yhczac2feSx/giphy.gif"],
-                    "type": "Key-down Active",
-                    "desc": "An Aether Sword rotates around you, protecting you",
-                    "details": [
-                        "When held, damage taken including %HP attacks is reduced",
-                        "If you press and release the Skill Key instantly, you will instead parry an enemy attack, becoming invincible for a few seconds",
-                        "Cooldown is reduced based on the duration the skill was held",
-                        "Unaffected by cooldown resets"
-                    ]
-                },
-                {
-                    "id": 151121002,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600"],
-                    "animations": ["https://media1.giphy.com/media/271gIbmLOpDvPqsgr2/giphy.gif"],
-                    "type": "Trigger Attack",
-                    "desc": "Dive down at your location damaging enemies in your path",
-                    "details": [
-                        "Can be used in the air to dive down vertically"
-                    ]
-                },
-                {
-                    "id": 151121005,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-warrior.png?w=600"],
-                    "animations": ["https://media1.giphy.com/media/KkPrlAtPfT6W4njPcf/giphy.gif"],
-                    "type": "Party Buff"
-                },
-                {
-                    "id": 151121006,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-heros-will.png?w=600"],
-                    "animations": ["https://media3.giphy.com/media/Tq9EsWm6lB7MlhjXwh/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
-                },
-                {
-                    "id": 151120007,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600"],
-                    "type": "Upgraded Passive"
-                },
-                {
-                    "id": 151120008,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600"],
-                    "type": "Upgraded Passive",
-                    "desc": "Increases the effects granted by <img src='https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600 alt='Skill Ascent'/>"
-                },
-                {
-                    "id": 151120009,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/demolition.png?w=600"],
-                    "type": "Passive"
-                },
-                {
-                    "id": 151120010,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attain.png?w=600"],
-                    "type": "Passive"
-                }]
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Possession II",
+                        "shortDesc": "Generates 10 Malice at a certain time, Breath Shooter skills generate 17 Malice when hit, and obtain up to 4 Malice Stones",
+                        "maxLevel": 1,
+                        "icons": ["https://i.imgur.com/O3iPinR.png", "https://i.imgur.com/eZqRPEb.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Malice gain rate",
+                            "Can now carry up to 4 Malice Stones"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Advanced Death Blessing",
+                        "shortDesc": "Death Blessing activation damage: +155% p, Death Blessing Final Damage increase: +5% p\\nRestore 5% of Max HP when you defeat 5 enemies\\nWhen Death Blessing activates on a boss monster, recover 3% Max HP",
+                        "maxLevel": 10,
+                        "icons": ["https://i.imgur.com/UpmK7LL.png", "https://i.imgur.com/8b7AYbi.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Falling Dust",
+                        "shortDesc": "MP Cost: 95, Consumes 1 Falling Dust Charge\\n Damage: 410%, Number of Attacks: 8, Max Enemies Hit: 12\\nYou gain 1 Falling Dust Charge every 10 sec, and can store up to a maximum of 2",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/xjPUOWg.png"],
+                        "animations": ["https://media4.giphy.com/media/xll1c8lLpon4NRDQh2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap into the air and fire arrows down at an angle",
+                        "details": [
+                            "Uses a special resource called Falling Dust Charge<ul><li>You gain one Falling Dust Charge every 10 secs (up to 2 at a time)</li></ul>",
+                            "When used in the air, you will not leap up"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Possession] Falling Dust",
+                        "shortDesc": "MP Cost: 95, Damage: 420%, Number of Attacks: 8, Max Enemies Hit: 12\\n[Malice]: Damage: 240%, Number of Attacks: 15, Max Enemies Hit: 15\\nCooldown: 16 sec",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/2EkChdQ.png", "https://i.imgur.com/xjPUOWg.png"],
+                        "animations": ["https://media4.giphy.com/media/rl8zpUa1NXXP1F9pMY/giphy.gif"],
+                        "type": "Possession Attack",
+                        "desc": "",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <img src='https://i.imgur.com/xjPUOWg.png' alt='Skill Falling Dust'/>",
+                            "Now creates a lingering dragon attack where the arrows landed"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Execution] Chain Sickle",
+                        "shortDesc": "MP Cost: 95, [First Hit] Damage: 190%, Number of Attacks: 6, Max Enemies Hit: 5\\n[2nd Hit] Damage: 230%, Number of Attacks: 12, Max Enemies Hit: 5\\nCooldown: 7 sec",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/Nze757q.png"],
+                        "animations": ["https://media2.giphy.com/media/s26TxdI1G86KB0vTpw/giphy.gif"],
+                        "type": "Execution Attack",
+                        "desc": "Swings a chain sickle forward and then slams it into the ground",
+                        "details": [
+                            "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Chain Sickle, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "[Execution] Poison Needle",
+                        "shortDesc": "MP Cost: 105, Damage: 260%, Number of Attacks: 8, Max Enemies Hit: 6\\nWhile held, consecutively attack up to 6 enemies for 12 time(s) 115% damage while applying a DoT that deals 290% damage for 12 sec\\nCooldown: 15 sec",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/EWNpmTY.png"],
+                        "animations": ["https://media0.giphy.com/media/ldG67nE8pWUD5X14Bk/giphy.gif"],
+                        "type": "Execution Key-down Attack",
+                        "desc": "When held, slashes around yourself before surrounding yourself in poisonous needles that apply a damaging poison debuff to enemies hit",
+                        "details": [
+                            "When used in the air, you will float",
+                            "Unaffected by Attack Speed increases",
+                            "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Poison Needle, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Dragon Scale",
+                        "shortDesc": "Consumes 4% of Max HP per sec. Can be held for 3.4 sec.\\nCooldown: 35 sec\\n[Passive Effect]: Additional Avoidability Chance: +30%",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/zyd2zsv.png"],
+                        "animations": ["https://media4.giphy.com/media/J5LjpKayRUMHdYFcaI/giphy.gif"],
+                        "type": "Key-down Active",
+                        "desc": "When held, become invincible briefly",
+                        "details": [
+                            "While active, you can move around",
+                            "Unaffected by cooldown resets",
+                            "<strong>[Passive]</strong>: Grants an additional chance to dodge attacks"
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Nova Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/3GsqzEl.png"],
+                        "animations": ["https://media3.giphy.com/media/QmhywVLvnz8kOvL2HP/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Nova Temperance",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
+                        "animations": ["https://media1.giphy.com/media/OubCLEOZUNkpBnvTJy/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Grinding II",
+                        "shortDesc": "Attack Power: +30\\nStrike Arrow, Strike Arrow II, Strike Arrow III, and Arrow Fragment Damage: +85% p\\n[Possession] Strike Arrow Damage: +85% p\\nScattering Shot Damage: +75% p\\n[Possession] Scattering Shot Damage: +80% p\\nDragon Fang Damage: +40% p\\nShaft Break Arrow and Explosion Damage: +60% p\\n[Possession] Shaft Break Arrow, Explosion Damage: +75% p, Cyclone Damage: +20% p\\n[Execution] Phantom Blade Damage: +100% p\\n[Execution] Tearing Knife Damage: +80% p\\nRemain Incense Damage: +100% p",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/p7hEY7m.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Dogma",
+                        "shortDesc": "Final Damage: +20%, Critical Damage: +20%, Enemy DEF Ignored: +30%",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/d2eP9UC.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Breath Shooter Expert",
+                        "shortDesc": "Breath Shooter Mastery: +70%, Final Damage: +30%, Attack Power: +30, Critical Damage: +20%",
+                        "maxLevel": 30,
+                        "icons": ["https://i.imgur.com/9d7H8Jt.png", "https://i.imgur.com/KAmi4B4.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "id": 0,
+                        "offline": true,
+                        "name": "Adapt to Death",
+                        "shortDesc": "Damage: +10%, Boss Damage: +10%, Max HP: +20%, Damage Taken: -15%",
+                        "maxLevel": 20,
+                        "icons": ["https://i.imgur.com/IlObBPv.png"],
+                        "type": "Passive"
+                    }]
             ]
         ],
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 151120031,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-reinforce.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Breath Shooter - Guardbreak",
+                    "shortDesc": "Ignore Defense: +15%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/How1cME.png"],
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Damage of all Trigger skills"
+                        "Increases %Ignore DEF of Breath Shooter skills"
                     ],
                     "reqLev": 140
                 },
                 {
-                    "id": 151120032,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-ignore-guard.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Breath Shooter - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/8QxUNld.png"],
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Ignore DEF of all Trigger skills"
+                        "Increases %Damage of Breath Shooter skills"
                     ],
                     "reqLev": 150
                 },
                 {
-                    "id": 151120033,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-boss-killer.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Breath Shooter - Boss Rush",
+                    "shortDesc": "Boss Damage: +15%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/5MTDbhR.png"],
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Boss Damage of all Trigger skills"
+                        "Increases %Boss Damage of Breath Shooter skills"
                     ],
                     "reqLev": 180
                 },
                 {
-                    "id": 151120034,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance-extra-healing.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Execution - Guardbreak",
+                    "shortDesc": "Ignore Defense: +25%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/WOyvtU6.png"],
                     "type": "Passive",
-                    "reqLev": 140
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of Execution skills"
+                    ],
+                    "reqLev": 150
                 },
                 {
-                    "id": 151120035,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory-persist.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Execution - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/FR8ayoC.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of Execution skills"
+                    ],
                     "reqLev": 165
                 },
                 {
-                    "id": 151120036,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom-cooltime-reduce.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Execution - Enhance",
+                    "shortDesc": "During the final damage increase effect, you cannot be knocked back while using an Execution skill",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/o0Cxe4C.png"],
                     "type": "Passive",
-                    "reqLev": 180
+                    "reqLev": 190
                 },
                 {
-                    "id": 151120037,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute-healing-reinforce.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Remain Incense - Reinforce",
+                    "shortDesc": "Damage: +50",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/h3MqkyI.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
-                    "id": 151120038,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility-shield-reinforce.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Dragon Fang - Add Range",
+                    "shortDesc": "Dragon Fang Enemy Search Range: +10%",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/Rsvf2W2.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
-                    "id": 151120039,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike-persist.png?w=600"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Dragon Scale - Extra Healing",
+                    "shortDesc": "Recover 7% of Max HP per second during key down",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/jwU9C4S.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
             ],
             "hyperActive": [
                 {
-                    "id": 151121041,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/marker.png?w=600"],
-                    "animations": ["https://media1.giphy.com/media/h2a2hDKzqycExpYwuz/giphy.gif"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "Chasing Shot",
+                    "shortDesc": "MP Cost: 300, Track up to 6 enemies and shoot 3 arrows with 320% damage 6 time(s)\\nCooldown: 30 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/7ZD6965.png"],
+                    "animations": ["https://media3.giphy.com/media/UH11ic3fMsF8Pq1zdo/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates shards at the location of enemies that explode",
-                    "details": [
-                        "Deals damage when the shards land and explode",
-                        "Deals increased %Damage if only one enemy is hit",
-                        "Creates <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> at the location of the explosion"
-                    ],
+                    "desc": "Focuses several enemies and fires a precise shot",
                     "reqLev": 140
                 },
                 {
-                    "id": 151121040,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600"],
-                    "animations": ["https://media3.giphy.com/media/bKeQs54oZJ1F0ZAZcA/giphy.gif"],
-                    "type": "Bind Attack",
-                    "desc": "Binds nearby enemies",
+                    "id": 0,
+                    "offline": true,
+                    "name": "Sneaky Sniping",
+                    "shortDesc": "MP Cost: 350, Damage: 150%, Number of Attacks: 10, Shockwaves: 5, Max Enemies Hit: 12\\nHold down skill key to charge (up to 1.4 sec max)\\nCooldown: 45 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/jMT1sqo.png"],
+                    "animations": ["https://media1.giphy.com/media/MU4K3zBCVdd5qTj1jf/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, charges to unleash a barrage of shockwaves forward",
+                    "details": [
+                        "Holding the Skill Key will extend the range of the shockwave up to a max distance",
+                        "Unaffected by Attack Speed increases"
+                    ],
                     "reqLev": 160
                 },
                 {
-                    "id": 151121042,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/race-of-god.png?w=600"],
-                    "animations": ["https://media0.giphy.com/media/gp7a45r7WcS6ztfvCM/giphy.gif"],
+                    "id": 0,
+                    "offline": true,
+                    "name": "[Possession/Execution] Sneaky Sniping",
+                    "shortDesc": "MP Cost: 350, Damage: 190%, Number of Attacks: 12, Shockwaves: 5, Max Enemies Hit: 12\\nHold down skill key to charge (up to 1.6 sec max)\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/492JOFD.png", "https://i.imgur.com/jMT1sqo.png"],
+                    "animations": ["https://media2.giphy.com/media/EurONZcc9cXesZ4xmj/giphy.gif"],
+                    "type": "Possession / Execution Attack",
+                    "desc": "",
+                    "details": [
+                        "Shares the same Skill Points (SP) and Key Slot as <img src='https://i.imgur.com/jMT1sqo.png' alt='Skill Sneaky Sniping'/>",
+                        "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed",
+                        "If the enemy is defeated with Sneaky Sniper, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 0,
+                    "offline": true,
+                    "name": "Incarnation",
+                    "shortDesc": "MP Cost: 500, Duration: 30 sec, Damage: +15%, Attack Power: +15%, Knockback Resistance: +50%\\nDeath Blessing Number of Attacks increased to 13\\nWhen party members attack near Kain, a Death Blessing aura is triggered that deals 150% damage 6 time(s). Cooldown: 3 sec\\nCooldown: 180 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O7pWoKd.png"],
+                    "animations": ["https://media0.giphy.com/media/PSv7pFkkn2D38k9w8B/giphy.gif"],
                     "type": "Buff",
+                    "desc": "Increases %Damage, %Attack, and %Knockback Resistance",
+                    "details": [
+                        "While active, increases the number of hits per attack of <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/>",
+                        "While active, party members can trigger an aura attack while attacking near Kain<ul><li>Unaffected by Damage Reflect</li></ul>"
+                    ],
                     "reqLev": 190
                 }
             ]
         },
         "fifth": {
-            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "weaponAura", "impenetrableSkin"],
+            "fifthCommon": ["mightOfTheNova", "grandisGoddessBlessingNV", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
-                    "name": "Ruin",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15\\nAn attack that deals 500% damage 6 times when summoned and activates 12 times.\\nAfter it's summoned, an additional sword pierce deals 900% damage 9 times and activates 8 times.\\nCooldown: 60 sec",
+                    "name": "[Possession] Dragon Burst",
+                    "shortDesc": "MP Cost: 750, Max Key Down Duration: 3 sec, Damage: 950%, Number of Attacks: 10, Max Enemies Hit: 12, up to 10 attacks can be triggered\\nYou can change directions while casting. Cooldown: 0.5 sec\\nCooldown: 60 sec",
                     "id": 400021002,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ruin.png?w=600"],
-                    "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"],
-                    "type": "Attack",
-                    "desc": "Summons a giant sword that rains down from the sky dealing damage while coming down and after it lands"
+                    "icons": ["https://i.imgur.com/6hTH4yG.png"],
+                    "animations": ["https://media1.giphy.com/media/A1taUBrrI5j7iiw7rj/giphy.gif"],
+                    "type": "Possession Key-down Attack",
+                    "desc": "When held, unleashes a blast of arrows forward",
+                    "details": [
+                        "You can change directions while casting",
+                        "You do not need to be in Possession state to use and will not consume Possession state to use"
+                    ]
                 },
                 {
-                    "name": "Infinity Blade",
-                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 30 sec, creates 18 aether swords that attack 2 times with 700% damage\\nOn successful hits, 5% chance to create an aether crystal.\\nCooldown 180 sec",
+                    "name": "[Execution] Fatal Blitz Loop",
+                    "shortDesc": "MP Cost: 750, Max Key Down Duration: 3 sec, Damage: 650%, Number of Attacks: 12, Max Enemies Hit: 8, up to 10 attacks can be triggered\\nCooldown: 60 sec",
                     "id": 400021030,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600"],
-                    "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"],
+                    "icons": ["https://i.imgur.com/CL2A2DH.png"],
+                    "animations": ["https://media3.giphy.com/media/nEeonrxLpdHzpCczmx/giphy.gif"],
+                    "type": "Execution Key-down Attack",
+                    "desc": "Unleashes a violent barrage of slashes forward",
+                    "details": [
+                        "If the attack hits an enemy with <img src='https://i.imgur.com/8b7AYbi.png' alt='Skill Death Blessing'/> debuff, the debuff is consumed",
+                        "If the enemy is defeated with Fatal Blitz Loop, the cooldown of <img src='https://i.imgur.com/cEIdi1b.png' alt='Skill Shadow Step'/> is reset"
+                    ]
+                },
+                {
+                    "name": "Thanatos Descent",
+                    "shortDesc": "MP Cost: 1000, Duration: 35, Damage: +40%, Knockback Resistance: +50%, 20 Malice generated at a certain time, Breath Shooter skills generate 25 Malice when hit, Remain Incense cooldown is reduced to 1.5 sec\\n[Touch of Death] Damage: 1000%, Number of Attacks: 12, Cooldown: 3 sec\\nWhen the skill ends or is re-used, become invincible and attack up to 15 enemies 15 time(s) for 1300% damage\\nCooldown: 180 sec",
+                    "id": 400021067,
+                    "icons": ["https://i.imgur.com/2oNIRd4.png"],
+                    "animations": ["https://media2.giphy.com/media/Me2FBX0U7tebxmrrqP/giphy.gif"],
+                    "type": "Buff Attack / Attack",
+                    "desc": "Increases %Damage, %Knockback Resistance, and increases Malice gain rate",
+                    "details": [
+                        "Periodically, whenever you attack, you create an additional attack",
+                        "At the end of the skill or when the Skill Key is pressed again, unleash a final attack<ul><li>You are invincible during this time</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Grip of Agony",
+                    "shortDesc": "Passive Effect: Defeating 25 enemies or attacking boss monsters 12 times will harvest 1 Agony (up to 15 max)\\nActive Effect: MP Cost: 1000, Duration: 6 sec, Requires at least 1 Agony. Consumes all Agony to summon a Hand of Suffering that deals 450% damage 4 time(s), up to 12 enemies. For every Agony, duration increases for 1 sec\\nCooldown: 180 sec",
+                    "id": 400021067,
+                    "icons": ["https://i.imgur.com/aMnZJQl.png"],
+                    "animations": ["https://media1.giphy.com/media/Dqs3zuJtdr8tENvbWH/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates several special Aether Swords that seek out and attack nearby enemies like <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
+                    "desc": "Creates a zone of agony at your position that damages enemies within it",
                     "details": [
-                        "Infinity Blade Aether Swords are only affected by <img src='https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600' alt='Grave'> and cannot trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Noble_Summons.png/revision/latest?cb=20200618170938' alt='Skill Noble Summons'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Aether_Bloom.png/revision/latest?cb=20200618170852' alt='Skill Aether Bloom'>",
-                        "Has a small chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal",
-                        "You are invincible at the initial cast and at the end of the skill",
-                        "Unaffected by Damage Reflect"
-                    ]
-                },
-                {
-                    "name": "Legacy Restoration",
-                    "shortDesc": "2% max MP will be consumed every sec while casting and after casting\\nDuration: 30 sec, Damage: 40%, Aether obtained: 40%, +2 aether swords that can be commanded with Hunting Decree\\nPeriodically spreads enchanted wings to attack 6 mobs with 1800% damage 3 times and restores 9.5% of max HP for you and your party members.\\nCooldown: 180 sec",
-                    "id": 400021067,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/restore-effect.png?w=600"],
-                    "animations": ["https://media0.giphy.com/media/L4NVP0IEzjlCm67dl3/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "Increases %Damage, Aether Weaving generation rate, the maximum number of swords commanded by <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
-                    "details": [
-                        "Periodically, your wings flap dealing damage to nearby enemies and healing nearby party members and yourself"
-                    ]
-                },
-                {
-                    "name": "Storm",
-                    "shortDesc": "MP Cost: 500, Duration: 14 sec. Automatically attacks up to 7 nearby enemies periodically, for 500% damage 2 time(s).\\nThe skill's attack count is increased by 2 for every 2 aether swords recalled beyond the first pair.\\nCooldown: 90 sec.",
-                    "id": 400021067,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/storm.png?w=600"],
-                    "animations": ["https://media4.giphy.com/media/dbhParw91q0UXfrqO7/giphy.gif"],
-                    "type": "Aether Sword Attack",
-                    "desc": "Commands all your <img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32' data-preserve-html-node='true' data-image-key='Skill_Hunting_Decree.png' data-image-name='Skill Hunting Decree.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' /> swords to gather and surround yourself in a storm of swords",
-                    "details": [
-                        "Based on the number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'> swords that were active when Storm is used, the number of hits per attack is increased",
+                        "This skill has a special resource called Agony which are gained from defeating enemies and attacking boss monsters and you can hold up to 15 Agony<ul><li>Using Grip of Agony consumes all Agony to increase the duration of the attack</li></ul>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -610,39 +839,39 @@
         },
         "notable": [
             {
-                "name": "Aether Forge - 2nd Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600"],
-                "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"]
+                "name": "Strike Arrow - 1st Job",
+                "icons": ["https://i.imgur.com/fKHGRNr.png"],
+                "animations": ["https://media1.giphy.com/media/mPL8ygsAt8P2GHwyus/giphy.gif"]
+            }, 
+            {
+                "name": "[Possession] Falling Dust - 4th Job",
+                "icons": ["https://i.imgur.com/2EkChdQ.png"],
+                "animations": ["https://media4.giphy.com/media/rl8zpUa1NXXP1F9pMY/giphy.gif"]
             },
             {
-                "name": "Hunting Decree - 3rd Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600"],
-                "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"]
+                "name": "[Execution] Chain Sickle - 4th Job",
+                "icons": ["https://i.imgur.com/Nze757q.png"],
+                "animations": ["https://media2.giphy.com/media/s26TxdI1G86KB0vTpw/giphy.gif"]
             },
             {
-                "name": "Noble Summons - 3rd Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600"],
-                "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"]
+                "name": "[Possession / Execution] Sneaky Sniping - Hyper Skills",
+                "icons": ["https://i.imgur.com/492JOFD.png"],
+                "animations": ["https://media2.giphy.com/media/EurONZcc9cXesZ4xmj/giphy.gif"]
             },
             {
-                "name": "Cleave - 4th Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600"],
-                "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"]
+                "name": "[Possession] Dragon Burst - 5th Job",
+                "icons": ["https://i.imgur.com/6hTH4yG.png"],
+                "animations": ["https://media1.giphy.com/media/A1taUBrrI5j7iiw7rj/giphy.gif"]
             },
             {
-                "name": "Aether Bloom - 4th Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600"],
-                "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"]
+                "name": "[Execution] Fatal Blitz Loop - 5th Job",
+                "icons": ["https://i.imgur.com/CL2A2DH.png"],
+                "animations": ["https://media3.giphy.com/media/nEeonrxLpdHzpCczmx/giphy.gif"]
             },
             {
-                "name": "Ruin - 5th Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ruin.png?w=600"],
-                "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"]
-            },
-            {
-                "name": "Infinity Blade - 5th Job",
-                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600"],
-                "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"]
+                "name": "Thanatos Descent - 5th Job",
+                "icons": ["https://i.imgur.com/2oNIRd4.png"],
+                "animations": ["https://media2.giphy.com/media/Me2FBX0U7tebxmrrqP/giphy.gif"]
             }
         ]
     },
